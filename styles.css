@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    height: 100%;
+}
+
+.container-1 {
+    background-color:  #f2f3f5;
+    padding: 32px 64px;
+    height: 756px;
+}
+ 
+.navbar{
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 16;
+    display: flex;
+    padding: 20 16px;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.menu-container{
+    align-content: center;
+
+}
