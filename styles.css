@@ -17,9 +17,9 @@
 .navbar{
     background-color: #fff;
     border: 1px solid black;
-    border-radius: 16;
+    border-radius: 16px;
     display: flex;
-    padding: 20 16px;
+    padding: 20px 16px;
     justify-content: space-between;
 }
 
