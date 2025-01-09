@@ -27,6 +27,8 @@ ul{
     list-style: none;
     display: flex;
     gap: 32px;
+
+    
     background-color: aquamarine;
 }
 
