@@ -2,24 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
 }
 
 .root {
     height: 100%;
 }
 
+.yellow {
+    background-color: #FFE852;
+}
+
 .container-1 {
     background-color:  #f2f3f5;
     padding: 32px 64px;
     height: 756px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
  
 .navbar{
     background-color: #fff;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 16px;
     display: flex;
+    justify-content: space-between;
     padding: 20px 16px;
+    
+}
+
+.navbar-container{
+    pad: 20px 16px;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -27,10 +43,43 @@ ul{
     list-style: none;
     display: flex;
     gap: 32px;
-    background-color: aquamarine;
 }
 
 .menu-container{
     align-content: center;
 
+}
+
+.action-button {
+    width: 210px;
+    height: 52px;
+    border-radius: 16px;
+    align-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.landing {
+    width: 1391px;
+    height: 536px; 
+    display: flex;
+    gap: 16px;
+
+}
+
+.main-container {
+    width: 869px;
+    height: 536px;
+    padding: 32px;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+.reklama {
+    height: 220px;
+    border-radius: 24px;
+    padding: 16px;
 }
